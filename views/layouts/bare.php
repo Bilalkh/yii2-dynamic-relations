@@ -5,8 +5,8 @@ use synatree\dynamicrelations\Module;
 /* @var $this \yii\web\View */
 /* @var $content string */
 
-$assetClass = Module::getInstance()->appAsset;
-$assetClass::register($this);
+// $assetClass = Module::getInstance()->appAsset;
+// $assetClass::register($this);
 
 $this->beginPage();
 ?>

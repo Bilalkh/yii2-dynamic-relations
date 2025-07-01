@@ -38,7 +38,7 @@ class DynamicRelations extends Widget
 			'title' => $this->title,
 			'collection' => $this->collection,
 			'viewPath' => $this->viewPath,
-			'ajaxAddRoute' => Url::toRoute(['dynamicrelations/load/template', 'hash'=>$hash]),
+			'ajaxAddRoute' => Url::toRoute(['/dynamicrelations/load/template', 'hash'=>$hash]),
 		]);
 	}
 
